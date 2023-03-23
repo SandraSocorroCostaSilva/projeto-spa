@@ -60,13 +60,15 @@ main{
 
 
 .mapa{
-    margin-top: 40px;
+   
+    margin-right: 650px;
 }
 
 .texto-icone{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .icone{
@@ -75,6 +77,41 @@ main{
 }
 .contatos{
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 280px;
+    
+}
+
+.lados{
+    display: flex;
+    align-items: center;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap:10px 20vw;
+}
+
+.invalid {
+    border: 2px solid red;
+}
+
+form input{
+
+    background-color:#DBEDCA ;
+    width: 20vw;
+    height: 30px;
+
+}
+
+form textarea{
+    width:20vw ;
+    background-color:#DBEDCA ;
+}
+
+.lado-mapa{
+width: 70vw;
 }
 
 footer  {
